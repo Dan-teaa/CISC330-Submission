@@ -29,7 +29,7 @@ body {
 
 }
 .opener {
-    background-image: url('/images/city.jpg');
+    background-image: url('images/city.jpg');
     background-size: cover;
     background-position: relative;
     height: 900px;
@@ -113,10 +113,10 @@ button.btn {
     margin-left: 20px;
 }
 
-
+/* Featured Properties Section */
 .prop-box {
-    width: 1700px;
-    height: 500px;
+    width: 1450px;
+    height: 800px;
     background-color: white;
     border-width: 2px;
     border-top: solid;
@@ -125,3 +125,84 @@ button.btn {
     
 }
 
+.propertiesHeader{
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+
+.propertiesFlex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
+.Property1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+
+}
+
+.Property2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+
+}
+
+.Property3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+
+}
+
+/*.Property4 {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+
+}
+
+.Property5 {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+
+}
+
+.Property6 {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+
+}*/
