@@ -70,7 +70,7 @@ li>a {
 }
 
 .grid {
-    height: 1300px;
+    height: 1200px;
     background-color: #FFFFFF;
     display: grid;
     grid-template-rows: 20%, 20%, 20%, 20%, 20%;
@@ -309,7 +309,7 @@ dt>a {
   
 }
 
-svg {
+.plusIcon svg {
  
     height: 30px;
     width: 30px;
@@ -340,9 +340,11 @@ LrnMoreTag a {
     background-color: #900028;
     padding-left: 50px;
     padding-top: 30px;
+    padding-right: 50px;
 
     display: flex;
     flex-direction: row;
+    gap: 50px;
 }
 
 .footerLogoSection {
@@ -358,5 +360,91 @@ LrnMoreTag a {
 }
 
 .alsoInterest a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
     color:#E1E1E1;
 }
+
+.socialContainer {
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 100px;
+    padding-top: 20px;   
+
+    
+}
+/* Add color to each element so I can later invert colors for linkedin logo */
+
+
+.socialContainer svg{
+    height: 32px;
+    width: 32px;
+}
+
+.facebookLogo {
+    color: white;
+    
+
+}
+
+.instagramLogo {
+    color: #E1E1E1;
+}
+
+.linkedinLogo {
+    color: #E1E1E1;
+}
+
+.twitterLogo {
+    color: #E1E1E1;
+}
+
+.youtubeLogo {
+    color: #E1E1E1;
+}
+
+.additionalSocials a {
+    color: #E1E1E1;
+  
+}
+
+.helpfulLinks {
+    margin-left: 250px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: #E1E1E1;
+    
+}
+
+.footerSecTitle {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    width: 185px;
+    border-bottom: 2px solid #E1E1E1;
+    color: #E1E1E1;
+}
+
+.footerItem a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #E1E1E1;
+}
+
+
+
+.visits {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+
+
