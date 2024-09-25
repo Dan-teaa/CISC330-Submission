@@ -290,10 +290,11 @@ button.btn {
 
 }
 
+/* PROPERTY FLEX QUESTION */
 .propertiesFlex {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     /*border-width: 1px;
     border-style: solid;*/
     width: 1400px;
@@ -302,6 +303,12 @@ button.btn {
     margin-top: 10px;
     
 
+}
+
+@media screen and (min-width: 500px) {
+    .propertiesFlex {
+        flex-direction: row;
+    }
 }
 
 .Property {
